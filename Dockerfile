@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 # set the environment variables
-ENV manta_version 1.5.1
+ENV manta_version 1.6.0
 
 # run update and install necessary tools
 RUN apt-get update -y && apt-get install -y \
