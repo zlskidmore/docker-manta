@@ -1,5 +1,5 @@
 # work from latest LTS ubuntu release
-FROM ubuntu:18.04
+FROM zlskidmore/samtools:1.10
 
 # set the environment variables
 ENV manta_version 1.6.0
